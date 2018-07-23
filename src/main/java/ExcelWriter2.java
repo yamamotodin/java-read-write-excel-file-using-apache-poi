@@ -14,11 +14,11 @@ import java.util.Optional;
 import java.util.stream.Stream;
 
 
-public class ExcelWriter {
+public class ExcelWriter2 {
 
-    public static final String RECEIPT_TEMPLATE_ORIG_XLSX_FILE_PATH = "./receipt_template_original.xlsx";
-    public static final String RECEIPT_TEMPLATE_XLSX_FILE_PATH = "./receipt_template.xlsx";
-    public static final String RECEIPT_OUTPUT_XLSX_FILE_PATH = "./receipt_output.xlsx";
+    public static final String RECEIPT_TEMPLATE_ORIG_XLSX_FILE_PATH = "./receipt_template_macro_original.xlsm";
+    public static final String RECEIPT_TEMPLATE_XLSX_FILE_PATH = "./receipt_template_macro.xlsm";
+    public static final String RECEIPT_OUTPUT_XLSX_FILE_PATH = "./receipt_output_macro.xlsm";
 
     static final Receipt sample = new Receipt(
             "10002-0010005",
